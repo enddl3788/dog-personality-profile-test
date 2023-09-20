@@ -88,6 +88,7 @@ function setResult() {
     console.log(imgURL);
     resultImg.src = imgURL;
     resultImg.alt = point;
+    resultImg.classList.add('img-fluid'); // 클래스 추가
     imgDiv.appendChild(resultImg);
     
     console.log(personalityType.name);
