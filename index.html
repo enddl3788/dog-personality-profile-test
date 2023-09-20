@@ -27,10 +27,11 @@
         <link rel="stylesheet" href="./css/animation.css">
         <link rel="stylesheet" href="./css/result.css">
 
-        <script src="https://t1.kakaocdn.net/kakao_js_sdk/${VERSION}/kakao.min.js"
-        integrity="${INTEGRITY_VALUE}" crossorigin="anonymous"></script>
+        <script src="https://t1.kakaocdn.net/kakao_js_sdk/${VERSION}/kakao.min.js"></script>
         <script>
             Kakao.init('d9b94e44acb050f0954294af3b16dbbc');
+            // SDK 초기화 여부를 판단합니다.
+            console.log(Kakao.isInitialized());
             Kakao.isInitialized();
         </script>
 
@@ -105,10 +106,10 @@
                 <div class="resultDesc mx-auto pt-3 px-3">
                 </div>
 
-                <button type="button" class="kakao btn-outline-light mx-auto my-5" onclick="js:shareKakao()">공유하기</button>
+                <button type="button" class="btn btn-outline-light mx-auto my-5" 
+                onclick="js:shareKakao()">공유하기</button>
 
             </section>
-            <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
             <script src="./js/data.js" charset="utf-8"></script>
             <script src="./js/start.js" charset="utf-8"></script>
             <script src="./js/share.js" charset="utf-8"></script>
