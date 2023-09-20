@@ -1,0 +1,22 @@
+#result {
+    display: none;
+    color:#F7F7F7;
+    text-align: center;
+    background-color: #262626;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#resultTitle {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 5vmin;
+}
+
+.resultName {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 4vmin;
+}
+
+.resultDesc {
+    font-size: 2vmin;
+}

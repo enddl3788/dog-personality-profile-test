@@ -1,0 +1,57 @@
+#qna{
+    display: none;
+}
+
+.qBox{
+    background-color: #262626;
+    border-radius: 20px;
+    color:#F7F7F7;
+    text-align: center;
+    font-size: 3vmin;
+}
+
+.answerList{
+    background-color: #262626;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    text-align: left;
+    font-size: 2vmin;
+    color:#F7F7F7;
+    display: block;
+    width: 100%;
+}
+
+.answerList:hover, .answerList:active{
+    background-color: #121212;
+}
+
+
+/* 이미지 컨테이너 스타일링 */
+.statusContainer {
+    position: relative;
+    width: 100%;
+    height: 10px; /* 이미지 높이에 맞게 조절 */
+    background-color: #262626; /* 바의 배경색 */
+    border-radius: 20px;
+}
+
+/* 바 스타일링 (동적으로 너비 조절) */
+.statusBar {
+    width: 0; /* 초기 너비 0으로 설정 */
+    height: 100%;
+    background-color: #F7F7F7; /* 바의 색상 */
+    transition: width 0.3s ease-in-out; /* 애니메이션 효과 추가 */
+    border-radius: 20px;
+}
+
+/* 이미지 스타일링 */
+.statusImage {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px; /* 이미지 너비 설정 */
+    height: 100px; /* 이미지 높이 설정 */
+    background-image: url('./img/run_dog.gif'); /* 이미지 경로 설정 */
+    background-size: cover; /* 이미지 크기 설정 */
+}

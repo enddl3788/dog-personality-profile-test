@@ -1,0 +1,19 @@
+#main {
+    background-color: #262626;
+    text-align: center;
+    color:#F7F7F7;
+    border-radius: 20px;
+}
+#info {
+    background-color: #121212;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    text-align: left;
+}
+#text {
+    font-size: 2vmin;
+}
+#mainTitle {
+    font-family: 'Nanum Pen Script', cursive;
+}
