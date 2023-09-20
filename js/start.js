@@ -166,7 +166,7 @@ function goNext(qIndex) {
     if (widthPercentage == 0) {
         statusImage.style.left = 0;
     }else{
-        statusImage.style.left = (widthPercentage - 10 + '%');
+        statusImage.style.left = (widthPercentage-20 + '%');
     }
 }
 
