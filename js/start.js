@@ -86,8 +86,8 @@ function setResult() {
 
     var imgURL = 'img/image-' + [point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]] + '.jpeg';
     console.log(imgURL);
-    resultImg.src = point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3];
-    resultImg.alt = point;
+    resultImg.src = imgURL;
+    resultImg.alt = [point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]];
     resultImg.classList.add('img-fluid'); // 클래스 추가
     imgDiv.appendChild(resultImg);
     
