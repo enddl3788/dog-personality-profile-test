@@ -1,0 +1,9 @@
+#record {
+    background-color: #262626;
+    text-align: center;
+    color:#F7F7F7;
+    border-radius: 20px;
+}
+#recordTitle {
+    font-family: 'Nanum Pen Script', cursive;
+}

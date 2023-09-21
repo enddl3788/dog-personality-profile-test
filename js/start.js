@@ -1,7 +1,3 @@
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 const main = document.querySelector('#main');
 const qna = document.querySelector('#qna');
 const result = document.querySelector('#result');
