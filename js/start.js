@@ -77,7 +77,7 @@ function setResult() {
     var altValue = point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3];
 
     // 해당하는 성격 유형의 이름과 설명 가져오기
-    const personalityType = altValue;
+    const personalityType = infoList[altValue];
 
     const resultName = document.querySelector('.resultName');
     resultName.innerHTML = personalityType.name;
@@ -97,7 +97,7 @@ function setResult() {
     console.log(personalityType.desc);
     
     const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML = personalityType.desc;
+    resultDesc.innerHTML = infoList[personalityType].desc;
     
 }
 
