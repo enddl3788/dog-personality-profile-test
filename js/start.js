@@ -84,7 +84,7 @@ function setResult() {
 
     
     var resultImg = document.createElement('img');
-    const imgDiv = document.querySelector('.resultImg');
+    const imgDiv = document.querySelector('#resultImg');
 
     var imgURL = 'img/image-' + altValue + '.jpeg';
     console.log(imgURL);
