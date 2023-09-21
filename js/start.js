@@ -1,7 +1,7 @@
 const main = document.querySelector('#main');
 const qna = document.querySelector('#qna');
 const result = document.querySelector('#result');
-const record = document.querySelector('#record');
+//const record = document.querySelector('#record');
 
 const select = []; // 선택한 답변 저장 배열
 
@@ -106,15 +106,15 @@ function goResult() {
     qna.style.WebkitAnimation = 'fadeOut 1s';
     qna.style.animation = 'fadeOut 1s';
     setTimeout(() => {
-        record.style.WebkitAnimation = 'fadeIn 1s';
-        record.style.animation = 'fadeIn 1s';
+        //record.style.WebkitAnimation = 'fadeIn 1s';
+        //record.style.animation = 'fadeIn 1s';
 
         result.style.WebkitAnimation = 'fadeIn 1s';
         result.style.animation = 'fadeIn 1s';
         setTimeout(() => {
             qna.style.display = 'none';
             result.style.display = 'block';
-            record.style.display = 'block';
+            //record.style.display = 'block';
         }, 450)
     }, 450)
 
@@ -181,14 +181,14 @@ function begin() {
     main.style.WebkitAnimation = 'fadeOut 1s';
     main.style.animation = 'fadeOut 1s';
 
-    record.style.WebkitAnimation = 'fadeOut 1s';
-    record.style.animation = 'fadeOut 1s';
+    //record.style.WebkitAnimation = 'fadeOut 1s';
+    //record.style.animation = 'fadeOut 1s';
     setTimeout(() => {
         qna.style.WebkitAnimation = 'fadeIn 1s';
         qna.style.animation = 'fadeIn 1s';
         setTimeout(() => {
             main.style.display = 'none';
-            record.style.display = 'none';
+            //record.style.display = 'none';
             qna.style.display = 'block';
         }, 450)
         let qIndex = 0;
