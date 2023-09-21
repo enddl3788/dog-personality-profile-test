@@ -97,7 +97,7 @@ function setResult() {
     console.log(personalityType.desc);
     
     const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML = infoList[personalityType].desc;
+    resultDesc.innerHTML = personalityType.desc;
     
 }
 
