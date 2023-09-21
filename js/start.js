@@ -1,3 +1,25 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+apiKey: "AIzaSyCZlwzGfbsGW_fSuaQGwVzRniFQfp73eNI",
+authDomain: "dog-personality-profile-test.firebaseapp.com",
+projectId: "dog-personality-profile-test",
+storageBucket: "dog-personality-profile-test.appspot.com",
+messagingSenderId: "1018394908243",
+appId: "1:1018394908243:web:e328bdd85d52fb57d4d8a6",
+measurementId: "G-9V91EGCVZ8"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 const main = document.querySelector('#main');
 const qna = document.querySelector('#qna');
 const result = document.querySelector('#result');
