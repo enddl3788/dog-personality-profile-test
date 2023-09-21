@@ -5,7 +5,7 @@ Kakao.isInitialized(); // SDK 초기화 여부를 리턴합니다.
 const url = 'https://enddl3788.github.io/dog-personality-profile-test/';
 
 function setShare() {
-    var resultImg = document.createElement('#resultImg');
+    var resultImg = document.createElement('img');
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = '반려견 성격 프로필 테스트 결과'
     const shareDes = infoList[resultAlt].name;
@@ -17,7 +17,7 @@ function setShare() {
         objectType: 'feed',
         content: {
             title: shareTitle,
-            description: 'shareDes',
+            description: shareDes,
             imageUrl: shareImage,
             link: {
                 mobileWebUrl: shareURL,
