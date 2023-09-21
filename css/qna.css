@@ -7,7 +7,7 @@
     border-radius: 20px;
     color:#F7F7F7;
     text-align: center;
-    font-size: 3vmin;
+    font-size: 5vmin;
 }
 
 .answerList{
@@ -16,7 +16,7 @@
     margin: 5px;
     padding: 20px;
     text-align: left;
-    font-size: 2vmin;
+    font-size: 4vmin;
     color:#F7F7F7;
     display: block;
     width: 100%;
