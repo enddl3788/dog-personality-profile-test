@@ -84,7 +84,7 @@ function setResult() {
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('.resultImg');
 
-    var imgURL = 'img/' + [point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]] + '.jpeg';
+    var imgURL = 'img/image-' + [point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]] + '.jpeg';
     console.log(imgURL);
     resultImg.src = imgURL;
     resultImg.alt = point;
