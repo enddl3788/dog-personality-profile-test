@@ -1,6 +1,4 @@
 const url = 'https://enddl3788.github.io/dog-personality-profile-test/';
-Kakao.init('d9b94e44acb050f0954294af3b16dbbc'); // 여기서 'YOUR_APP_KEY'를 실제 Kakao 애플리케이션 키로 대체하세요.
-Kakao.isInitialized(); // SDK 초기화 여부를 리턴합니다.
 
 function setShare() {
     var resultImg = document.querySelector('#resultImg');
