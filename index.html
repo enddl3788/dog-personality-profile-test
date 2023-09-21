@@ -29,11 +29,7 @@
         <link rel="stylesheet" href="./css/record.css">
 
         <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-        <script>
-            Kakao.init('d9b94e44acb050f0954294af3b16dbbc'); // 여기서 'YOUR_APP_KEY'를 실제 Kakao 애플리케이션 키로 대체하세요.
-            Kakao.isInitialized(); // SDK 초기화 여부를 리턴합니다.
-        </script>
-
+        
         <!-- Firebase -->
         <script type="module" src="./js/firebase.js"></script>
         
@@ -124,7 +120,7 @@
                 </div>
 
                 <div class="d-grid gap-2 my-3">
-                    <button type="submit" class="btn btn-outline-light" onclick="updateProfile()">프로필 추가</button>
+                    <button type="submit" class="btn btn-outline-light" onclick="js:updateProfile()">프로필 추가</button>
                 </div>
             </section>
 
