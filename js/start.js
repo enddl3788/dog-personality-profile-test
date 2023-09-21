@@ -74,8 +74,10 @@ function setResult() {
     // point 문자열을 배열로 변환
     point = point.split("").map(Number);
 
+    var altValue = point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3];
+
     // 해당하는 성격 유형의 이름과 설명 가져오기
-    const personalityType = infoList[point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]];
+    const personalityType = altValue;
 
     const resultName = document.querySelector('.resultName');
     resultName.innerHTML = personalityType.name;
@@ -84,10 +86,10 @@ function setResult() {
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('.resultImg');
 
-    var imgURL = 'img/image-' + [point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]] + '.jpeg';
+    var imgURL = 'img/image-' + altValue + '.jpeg';
     console.log(imgURL);
     resultImg.src = imgURL;
-    resultImg.alt = [point[0] * 8 + point[1] * 4 + point[2] * 2 + point[3]];
+    resultImg.alt = altValue; // alt 속성에 정수값 할당
     resultImg.classList.add('img-fluid'); // 클래스 추가
     imgDiv.appendChild(resultImg);
     
