@@ -168,7 +168,7 @@ function goNext(qIndex) {
     if (widthPercentage == 0) {
         statusImage.style.left = 0;
     }else{
-        statusImage.style.left = (widthPercentage-20 + '%');
+        statusImage.style.left = (widthPercentage-15 + '%');
     }
 }
 
@@ -185,4 +185,8 @@ function begin() {
         let qIndex = 0;
         goNext(qIndex);
     }, 450)
+}
+
+function loadHome(){
+    location.reload();
 }
