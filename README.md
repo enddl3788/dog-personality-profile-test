@@ -38,23 +38,29 @@ cd dog-personality-profile-test
 
 4. 웹 애플리케이션을 사용하여 강아지 성격 프로필 테스트를 수행합니다.
 
-기여
+## 기여
+
 이 프로젝트에 기여하고 싶다면 다음 단계를 따라주세요:
 
-이 저장소를 포크합니다.
-새로운 브랜치를 생성하고 작업합니다: git checkout -b feature/new-feature
-변경 사항을 커밋하고 푸시합니다: git commit -m 'Add new feature' 및 git push origin feature/new-feature
-변경 사항을 GitHub에 제출한 후 풀 리퀘스트를 생성합니다.
-라이센스
-이 프로젝트는 MIT 라이센스 하에 배포됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.
+1. 이 저장소를 포크합니다.
 
-저자
-Your Name - GitHub Profile
-연락처
+2. 새로운 브랜치를 생성하고 작업합니다: 
+```bash 
+git checkout -b feature/new-feature
+```
+
+3. 변경 사항을 커밋하고 푸시합니다: 
+```bash 
+git commit -m 'Add new feature' 및 git push origin feature/new-feature
+```
+
+4. 변경 사항을 GitHub에 제출한 후 풀 리퀘스트를 생성합니다.
+
+## 저자
+Yebin Song - https://enddl3788.github.io/
+
+## 연락처
 프로젝트에 관한 문의나 버그 신고 등은 이메일을 통해 저희에게 연락할 수 있습니다.
 
-감사의 말
+## 감사의 말
 이 프로젝트에 기여하거나 사용해주셔서 감사합니다!
-
-
-위의 템플릿을 기반으로 README 파일을 수정하여 프로젝트에 대한 자세한 설명, 사용 방법, 기술 스택, 기여 가이드라인 등을 포함시키세요. 또한 "라이센스", "저자", "연락처", "감사의 말" 섹션을 필요에 맞게 수정하세요.
