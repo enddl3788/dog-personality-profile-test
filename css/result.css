@@ -5,6 +5,7 @@
     background-color: #262626;
     border-radius: 20px;
     width: 100%;
+    word-break: keep-all;
 }
 
 #shareResult {

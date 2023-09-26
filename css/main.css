@@ -3,6 +3,7 @@
     text-align: center;
     color:#F7F7F7;
     border-radius: 20px;
+    word-break: keep-all;
 }
 #info {
     background-color: #121212;

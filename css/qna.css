@@ -1,5 +1,6 @@
 #qna{
     display: none;
+    word-break: keep-all;
 }
 
 .qBox{
@@ -7,7 +8,7 @@
     border-radius: 20px;
     color:#F7F7F7;
     text-align: center;
-    font-size: 5vmin;
+    font-size: 4vmin;
 }
 
 .answerList{
@@ -16,7 +17,7 @@
     margin: 5px;
     padding: 20px;
     text-align: left;
-    font-size: 4vmin;
+    font-size: 3vmin;
     color:#F7F7F7;
     display: block;
     width: 100%;
