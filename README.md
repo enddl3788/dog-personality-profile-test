@@ -4,6 +4,8 @@
 
 ![Dog Personality Profile Test](img/share.png)
 
+링크 : https://enddl3788.github.io/dog-personality-profile-test/
+
 ## 소개
 
 이 프로젝트는 반려견의 성격을 파악하기 위한 웹 애플리케이션입니다. 사용자는 간단한 테스트를 통해 강아지의 성격을 확인할 수 있으며, 테스트한 강아지의 프로필을 저장하고 공유할 수 있습니다.
